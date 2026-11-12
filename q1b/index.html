@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model - Product Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>The CSS Box Model</h1>
+
+    <h2>Labelled Diagram</h2>
+    <div class="margin-box">
+        <span class="label">MARGIN</span>
+        <div class="border-box">
+            <span class="label">BORDER</span>
+            <div class="padding-box">
+                <span class="label">PADDING</span>
+                <div class="content-box">
+                    CONTENT<br>(text, image, button)
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2>Product Card Example</h2>
+    <div class="cards">
+        <div class="product-card">
+            <div class="photo">Product Image</div>
+            <h3>Maasai Leather Sandals</h3>
+            <p class="price">KSh 1,500</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <div class="photo">Product Image</div>
+            <h3>Kikoy Beach Towel</h3>
+            <p class="price">KSh 900</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>

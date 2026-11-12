@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #fafafa;
+}
+
+/* ---------- Box model diagram ---------- */
+.margin-box {
+    background-color: #f9cc9d;      /* orange = margin */
+    padding: 25px;
+    width: 380px;
+    text-align: center;
+}
+
+.border-box {
+    background-color: #fddd9b;      /* yellow = border */
+    border: 4px solid #333;
+    padding: 20px;
+}
+
+.padding-box {
+    background-color: #c3d08b;      /* green = padding */
+    padding: 20px;
+}
+
+.content-box {
+    background-color: #8cb6c0;      /* blue = content */
+    padding: 25px;
+    font-weight: bold;
+}
+
+.label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+/* ---------- Product card ---------- */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    width: 220px;                   /* CONTENT width */
+    padding: 15px;                  /* PADDING: space inside the card */
+    border: 2px solid #2e7d32;      /* BORDER: visible edge of the card */
+    border-radius: 8px;
+    margin: 15px;                   /* MARGIN: gap between cards */
+    background-color: white;
+    text-align: center;
+}
+
+.photo {
+    background-color: #ddd;
+    height: 120px;
+    line-height: 120px;
+    margin-bottom: 10px;
+}
+
+.price {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

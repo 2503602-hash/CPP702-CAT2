@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #1a1a2e;      /* dark background */
+}
+
+nav ul {
+    list-style: none;               /* remove bullets */
+    display: flex;                  /* horizontal layout */
+    justify-content: space-evenly;  /* links evenly spaced */
+}
+
+nav a {
+    display: block;
+    color: white;                   /* white link text */
+    text-decoration: none;          /* no underline */
+    padding: 16px 20px;
+}
+
+nav a:hover {
+    color: #f0a500;                 /* orange on hover */
+}
+
+main {
+    padding: 30px;
+}
